@@ -1,7 +1,31 @@
 "salvalai":
   - firstname: ["Graziano", "G.", "Graziano Salvalai"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+    url: https://www.beelab.polimi.it/
 
-"sesana":
-  - firstname: ["Marta", "M.", "Marta Maria", "M. M.", "Marta M. Sesana", "Marta Maria Sesana", "Marta Sesana"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"grecchi":
+  - firstname: ["Manuela", "M.", "Manuela Grecchi"]
+    url: https://www.dabc.polimi.it/
+
+"bernardini":
+  - firstname: ["Gabriele", "G.", "Gabriele Bernardini"]
+    url: https://www.univpm.it/
+
+"dorazio":
+  - firstname: ["Marco", "M.", "Marco D'Orazio"]
+    url: https://www.univpm.it/
+
+"gulli":
+  - firstname: ["Riccardo", "R.", "Riccardo Gulli"]
+    url: https://www.unibo.it/
+
+"predari":
+  - firstname: ["Giorgia", "G.", "Giorgia Predari"]
+    url: https://www.unibo.it/
+
+"massafra":
+  - firstname: ["Angelo", "A.", "Angelo Massafra"]
+    url: https://www.unibo.it/
+
+"romano":
+  - firstname: ["Guido", "G.", "Guido Romano"]
+    url: https://www.univpm.it/
