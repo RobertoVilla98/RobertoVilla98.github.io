@@ -62,6 +62,16 @@ cv:
         icon: fa-solid fa-code
         keywords: "Python for Machine Learning, Building Performance Simulation (BPS), Sensor Network Data Analysis, Clustering & Classification"
 
+    Academic Service:
+      - company: Dotati Conference
+        position: Steering & Organizing Committee Member
+        location: Italy
+        start_date: 2024
+        end_date: Present
+        highlights:
+          - "Member of the Steering Committee (Comitato Direttivo) for the upcoming conference in Bologna."
+          - "Member of the Organizing Committee for the conference held in Milan."
+
     Languages:
       - name: Italian
         summary: "Native speaker"

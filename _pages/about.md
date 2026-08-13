@@ -6,7 +6,7 @@ subtitle: PhD Candidate in Architectural Engineering @ <a href='https://www.poli
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: RV_Profile.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Department of Architecture, Built Environment and Construction Engineering (DABC)</p>
