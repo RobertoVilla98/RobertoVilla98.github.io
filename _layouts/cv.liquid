@@ -1,0 +1,159 @@
+---
+layout: default
+---
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      {{ page.title }}
+      {% if page.cv_pdf %}
+        <a
+          href="{{ page.cv_pdf | relative_url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="float-right"
+          ><i class="fa-solid fa-file-pdf"></i
+        ></a>
+      {% endif %}
+    </h1>
+    {% if page.description %}
+      <p class="post-description">{{ page.description }}</p>
+    {% endif %}
+  </header>
+
+  <article>
+    <div class="cv">
+      {% for entry in site.data.cv.cv.sections %}
+        <a class="anchor" id="{{ entry[0] | slugify }}"></a>
+        <div class="card mt-3 p-3">
+          <h3 class="card-title font-weight-medium">{{ entry[0] }}</h3>
+          <div>
+            {% if entry[0] == "Research Interests" %}
+              <ul class="card-text font-weight-light list-group list-group-flush">
+                {% for item in entry[1] %}
+                  <li class="list-group-item">
+                    <div class="row">
+                      <div class="col-12">
+                        <h6 class="title font-weight-bold ml-1 ml-md-4">
+                          {% if item.icon %}<i class="{{ item.icon }} mr-2"></i>{% endif %}
+                          {{ item.name }}
+                        </h6>
+                        {% if item.keywords %}
+                          <p class="ml-1 ml-md-4 mb-0 text-muted">{{ item.keywords }}</p>
+                        {% elsif item.details %}
+                          <p class="ml-1 ml-md-4 mb-0 text-muted">{{ item.details }}</p>
+                        {% elsif item.summary %}
+                          <p class="ml-1 ml-md-4 mb-0 text-muted">{{ item.summary }}</p>
+                        {% endif %}
+                      </div>
+                    </div>
+                  </li>
+                {% endfor %}
+              </ul>
+            {% elsif entry[0] == "Certificates" or entry[0] == "Professional Qualifications" %}
+              <ul class="card-text font-weight-light list-group list-group-flush">
+                {% for item in entry[1] %}
+                  <li class="list-group-item">
+                    <div class="row">
+                      <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+                        <h6 class="title font-weight-bold ml-1 ml-md-4">
+                          {% if item.icon %}<i class="{{ item.icon }} mr-2"></i>{% endif %}
+                          {{ item.name }}
+                        </h6>
+                        {% if item.issuer %}
+                          <h6 class="ml-1 ml-md-4 font-italic text-muted">{{ item.issuer }}</h6>
+                        {% endif %}
+                        {% if item.highlights %}
+                          <ul class="items ml-1 ml-md-4">
+                            {% for highlight in item.highlights %}
+                              <li><span class="item">{{ highlight }}</span></li>
+                            {% endfor %}
+                          </ul>
+                        {% endif %}
+                      </div>
+                      <div class="col-xs-2 col-sm-2 col-md-2 text-right">
+                        {% if item.date %}
+                          <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle">{{ item.date }}</span>
+                        {% endif %}
+                      </div>
+                    </div>
+                  </li>
+                {% endfor %}
+              </ul>
+            {% elsif entry[0] == "Languages" %}
+              <ul class="card-text font-weight-light list-group list-group-flush">
+                {% for item in entry[1] %}
+                  <li class="list-group-item">
+                    <div class="row">
+                      <div class="col-6">
+                        <h6 class="title font-weight-bold ml-1 ml-md-4">{{ item.name }}</h6>
+                      </div>
+                      <div class="col-6 text-right">
+                        <span class="text-muted font-italic">{{ item.summary }}</span>
+                      </div>
+                    </div>
+                  </li>
+                {% endfor %}
+              </ul>
+            {% else %}
+              <ul class="card-text font-weight-light list-group list-group-flush">
+                {% for item in entry[1] %}
+                  <li class="list-group-item">
+                    <div class="row">
+                      <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+                        {% if item.position %}
+                          <h6 class="title font-weight-bold ml-1 ml-md-4">{{ item.position }}</h6>
+                          {% if item.company %}
+                            <h6 class="ml-1 ml-md-4 font-italic text-muted">
+                              {{ item.company }}
+                              {% if item.location %} - {{ item.location }}{% endif %}
+                            </h6>
+                          {% endif %}
+                        {% elsif item.studyType %}
+                          <h6 class="title font-weight-bold ml-1 ml-md-4">{{ item.studyType }}</h6>
+                          {% if item.institution %}
+                            <h6 class="ml-1 ml-md-4 font-italic text-muted">
+                              {% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.institution }}</a>{% else %}{{ item.institution }}{% endif %}
+                              {% if item.location %} - {{ item.location }}{% endif %}
+                            </h6>
+                          {% endif %}
+                          {% if item.area %}
+                            <p class="ml-1 ml-md-4 mb-1 text-muted">{{ item.area }}</p>
+                          {% endif %}
+                        {% elsif item.name %}
+                          <h6 class="title font-weight-bold ml-1 ml-md-4">{{ item.name }}</h6>
+                        {% endif %}
+
+                        {% if item.summary %}
+                          <p class="ml-1 ml-md-4 mb-2">{{ item.summary }}</p>
+                        {% endif %}
+
+                        {% if item.highlights %}
+                          <ul class="items ml-1 ml-md-4">
+                            {% for highlight in item.highlights %}
+                              <li><span class="item">{{ highlight }}</span></li>
+                            {% endfor %}
+                          </ul>
+                        {% endif %}
+                      </div>
+                      <div class="col-xs-2 col-sm-2 col-md-2 text-right">
+                        {% if item.start_date %}
+                          {% assign date_str = item.start_date %}
+                          {% if item.end_date %}
+                            {% assign date_str = item.start_date | append: ' – ' | append: item.end_date %}
+                          {% endif %}
+                          <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle">{{ date_str }}</span>
+                        {% elsif item.date %}
+                          <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle">{{ item.date }}</span>
+                        {% endif %}
+                      </div>
+                    </div>
+                  </li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </article>
+</div>

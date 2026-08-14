@@ -55,12 +55,12 @@ cv:
           - "Diploma di Istituto Tecnico Commerciale e per Geometri."
 
     Certificates:
-      - name: Licensed Professional Civil and Environmental Engineer
-        issuer: Ordine degli Ingegneri (Italian State Examination - Sezione A)
+      - name: Licensed Professional Civil and Environmental Engineer (Section A) (2024)
+        issuer: Ordine degli Ingegneri (Esame di Stato)
         date: 2024
         icon: fa-solid fa-id-card
         highlights:
-          - "Abilitazione all'esercizio della professione di Ingegnere Civile e Ambientale (Sezione A)."
+          - "Abilitazione all'esercizio della professione di Ingegnere Civile e Ambientale."
 
     Experience:
       - company: Politecnico di Milano - BEE Lab
