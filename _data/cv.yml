@@ -5,7 +5,7 @@ cv:
   location: Milan (MI), Italy
   image: ""
   summary: >
-    Roberto Villa, Building and Architectural Engineer, is a PhD Candidate (41st cycle) at Politecnico di Milano, DABC Department, and a licensed Professional Civil and Environmental Engineer. He holds a single-cycle Master’s Degree in Building Engineering - Architecture from Politecnico di Milano. His research within the Building performancE façadE Laboratory (BEE Lab) focuses on AECO digitalization, Building Information Modeling (BIM), Building Performance Simulation (BPS), and IoT-enabled semantic Digital Twins for predictive building management. Villa actively contributes to key national initiatives, including the MUR PRIN DIGITMAN and REROadS projects, the CIM-TRUST initiative, and is engaged in the ENEA triennial research agreement on building decarbonization. He serves as an elected member of the DABC Department Board (Comitato Direttivo), has served on the organizing and steering committees for the Dot.AT.i Study Day conference, and is involved in co-supervising Master's theses and drafting European research proposals. Alongside his engineering background, he has a strong interest in computer science, utilizing advanced skills in Python, Machine Learning, and data mining to optimize building performance telemetry. His scientific work has been published in indexed journals (Energy and Buildings) and international conference proceedings (Ar.Tec., CIB W78 / EC3, Colloqui.AT.e).
+    Roberto Villa, Building and Architectural Engineer, is a PhD Candidate (41st cycle) in Architectural Engineering at Politecnico di Milano, Department of Architecture, Built Environment and Construction Engineering (DABC), and a licensed Professional Civil and Environmental Engineer. He holds a single-cycle Master’s Degree in Building Engineering - Architecture from Politecnico di Milano. His research within the Building performancE façadE Laboratory (BEE Lab) focuses on AECO digitalization, Building Information Modeling (BIM), Building Performance Simulation (BPS), and IoT-enabled semantic Digital Twins for predictive building management. Villa actively contributes to key national research initiatives, including the MUR PRIN DIGITMAN project and the ENEA triennial research agreement on building decarbonization. He serves on the organizing and steering committees for the Dot.AT.i Study Day conference and is involved in co-supervising Master's theses and drafting research proposals. Alongside his engineering background, he utilizes advanced computational workflows in Python, Machine Learning, and data mining to optimize building performance telemetry.
 
   social_networks:
     - network: GitHub
@@ -54,13 +54,13 @@ cv:
         highlights:
           - "Diploma di Istituto Tecnico Commerciale e per Geometri."
 
-    Professional Qualifications:
-      - company: Ordine degli Ingegneri
-        position: Licensed Professional Civil and Environmental Engineer
-        location: Italy
-        start_date: 2024
+    Certificates:
+      - name: Licensed Professional Civil and Environmental Engineer
+        issuer: Ordine degli Ingegneri (Italian State Examination - Sezione A)
+        date: 2024
+        icon: fa-solid fa-id-card
         highlights:
-          - "State Examination (Esame di Stato per l'abilitazione all'esercizio della professione di Ingegnere Civile e Ambientale - Sezione A)."
+          - "Abilitazione all'esercizio della professione di Ingegnere Civile e Ambientale (Sezione A)."
 
     Experience:
       - company: Politecnico di Milano - BEE Lab
@@ -80,7 +80,7 @@ cv:
         end_date: 2025
         summary: Research fellowship on occupant-based predictive building management, lightweight dry-assembly envelope systems, and IEQ monitoring.
         highlights:
-          - "Active contribution to key national research initiatives: MUR PRIN DIGITMAN, REROadS, and CIM-TRUST projects."
+          - "Active contribution to the MUR PRIN 2022 DIGITMAN project on occupant-based digital predictive management."
           - "Engagement in the ENEA triennial research agreement on building decarbonization and high-performance envelopes."
           - "Research activities within the OFFICIO project on workspace environmental quality and occupant behavior."
           - "Implementation of machine learning algorithms for thermal pattern identification and comfort classification."
@@ -121,14 +121,6 @@ cv:
         keywords: "Semi-automated space-oriented workflows for integrated energy and safety analysis"
 
     Academic Service:
-      - company: Politecnico di Milano - DABC Department
-        position: Member of the Department Board (Comitato Direttivo)
-        location: Milan (MI), Italy
-        start_date: 2025
-        end_date: Present
-        highlights:
-          - "Elected member of the DABC Department Board (Comitato Direttivo)."
-
       - company: Politecnico di Milano
         position: Co-supervisor of Master's Theses
         location: Milan (MI), Italy
