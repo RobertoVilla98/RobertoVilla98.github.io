@@ -1,10 +1,11 @@
 cv:
   name: Roberto Villa
-  label: PhD Candidate in Architectural Engineering
+  label: PhD Candidate in Architectural Engineering & Licensed Professional Engineer
   email: roberto.villa@polimi.it
   location: Milan (MI), Italy
   image: ""
-  summary: PhD Candidate at Politecnico di Milano focusing on Building Physics, Indoor Environmental Quality (IEQ), Occupant-based Predictive Building Management, and Machine Learning applications.
+  summary: >
+    Roberto Villa, Building and Architectural Engineer, is a PhD Candidate (41st cycle) at Politecnico di Milano, DABC Department, and a licensed Professional Civil and Environmental Engineer. He holds a single-cycle Master’s Degree in Building Engineering - Architecture from Politecnico di Milano. His research within the Building performancE façadE Laboratory (BEE Lab) focuses on AECO digitalization, Building Information Modeling (BIM), Building Performance Simulation (BPS), and IoT-enabled semantic Digital Twins for predictive building management. Villa actively contributes to key national initiatives, including the MUR PRIN DIGITMAN and REROadS projects, the CIM-TRUST initiative, and is engaged in the ENEA triennial research agreement on building decarbonization. He serves as an elected member of the DABC Department Board (Comitato Direttivo), has served on the organizing and steering committees for the Dot.AT.i Study Day conference, and is involved in co-supervising Master's theses and drafting European research proposals. Alongside his engineering background, he has a strong interest in computer science, utilizing advanced skills in Python, Machine Learning, and data mining to optimize building performance telemetry. His scientific work has been published in indexed journals (Energy and Buildings) and international conference proceedings (Ar.Tec., CIB W78 / EC3, Colloqui.AT.e).
 
   social_networks:
     - network: GitHub
@@ -25,23 +26,23 @@ cv:
         location: Milan (MI), Italy
         url: https://www.polimi.it/
         area: Architecture, Built Environment and Construction Engineering (DABC)
-        studyType: Ph.D. Candidate
+        studyType: Ph.D. Candidate (41st Cycle)
         start_date: 2025
         end_date: Present
         highlights:
-          - "Member of BEE Lab (Building facadE performancE Lab)."
-          - "Doctoral research in Building Physics, Indoor Environmental Quality (IEQ), and data-driven building operations."
+          - "Member of BEE Lab (Building performancE façadE Laboratory)."
+          - "Doctoral research: AECO digitalization, Building Information Modeling (BIM), Building Performance Simulation (BPS), and IoT-enabled semantic Digital Twins for predictive building management."
 
       - institution: Politecnico di Milano
         location: Milan (MI), Italy
         url: https://www.polimi.it/
-        area: Building Engineering-Architecture (Ingegneria Edile-Architettura)
+        area: Building Engineering - Architecture (Ingegneria Edile-Architettura)
         studyType: Master of Science (M.Sc.)
         start_date: 2017
         end_date: 2023
         highlights:
           - "Five-year single-cycle master's degree (Laurea Magistrale a ciclo unico)."
-          - "Master's Thesis: <a href='https://www.politesi.polimi.it/handle/10589/211636' target='_blank'>RE(3).Hab Brioschi: Progetto di recupero del rifugio Luigi Brioschi mediante l'utilizzo di sistemi modulari leggeri in legno, ottimizzazione del comfort dinamico per mezzo di integrazioni impiantistiche autosufficienti</a> (Politesi ID: 10589/211636)."
+          - "Master's Thesis: <a href='https://www.politesi.polimi.it/handle/10589/211636' target='_blank'>RE(3).Hab Brioschi (REfuge, REcladding, REbuilding Habitat) - Recovery project of the Luigi Brioschi mountain refuge through lightweight modular timber systems, dynamic comfort optimization via self-sufficient MEP systems</a> (Politesi ID: 10589/211636)."
 
       - institution: ITCG Gino Zappa
         location: Saronno (VA), Italy
@@ -53,26 +54,36 @@ cv:
         highlights:
           - "Diploma di Istituto Tecnico Commerciale e per Geometri."
 
+    Professional Qualifications:
+      - company: Ordine degli Ingegneri
+        position: Licensed Professional Civil and Environmental Engineer
+        location: Italy
+        start_date: 2024
+        highlights:
+          - "State Examination (Esame di Stato per l'abilitazione all'esercizio della professione di Ingegnere Civile e Ambientale - Sezione A)."
+
     Experience:
       - company: Politecnico di Milano - BEE Lab
-        position: Doctoral Researcher / Ph.D. Candidate
+        position: Doctoral Researcher (41st Cycle)
         location: Milan (MI), Italy
         start_date: 2025
         end_date: Present
-        summary: Conducting doctoral research on building physics, environmental monitoring, and data-driven management models.
+        summary: Conducting doctoral research on AECO digitalization, semantic Digital Twins, building physics, and predictive building management.
         highlights:
-          - "Research focus on occupant-centric building management, time-series clustering, and predictive comfort models."
+          - "Research focus on occupant-centric building management, time-series clustering, and predictive comfort telemetry."
+          - "Advanced computational workflows in Python, Machine Learning, and data mining."
 
       - company: Politecnico di Milano - BEE Lab
         position: Research Fellow (Assegnista di Ricerca)
         location: Milan (MI), Italy
         start_date: 2023
         end_date: 2025
-        summary: Research fellowship on occupant-based predictive building management, lightweight envelope systems, and IEQ monitoring.
+        summary: Research fellowship on occupant-based predictive building management, lightweight dry-assembly envelope systems, and IEQ monitoring.
         highlights:
-          - "Research activities within the PRIN 2022 DIGITMAN project on digital predictive management."
-          - "Research and performance evaluation within ENEA Ricerca di Sistema and OFFICIO projects."
-          - "Machine learning algorithms and thermal pattern identification for indoor comfort."
+          - "Active contribution to key national research initiatives: MUR PRIN DIGITMAN, REROadS, and CIM-TRUST projects."
+          - "Engagement in the ENEA triennial research agreement on building decarbonization and high-performance envelopes."
+          - "Research activities within the OFFICIO project on workspace environmental quality and occupant behavior."
+          - "Implementation of machine learning algorithms for thermal pattern identification and comfort classification."
 
       - company: Studio di Architettura e Ingegneria Arch3
         position: Engineering & Architecture Collaborator
@@ -110,22 +121,30 @@ cv:
         keywords: "Semi-automated space-oriented workflows for integrated energy and safety analysis"
 
     Academic Service:
+      - company: Politecnico di Milano - DABC Department
+        position: Member of the Department Board (Comitato Direttivo)
+        location: Milan (MI), Italy
+        start_date: 2025
+        end_date: Present
+        highlights:
+          - "Elected member of the DABC Department Board (Comitato Direttivo)."
+
       - company: Politecnico di Milano
         position: Co-supervisor of Master's Theses
         location: Milan (MI), Italy
         start_date: 2024
         end_date: Present
         highlights:
-          - "Co-supervisor: <a href='https://www.politesi.polimi.it/handle/10589/240687' target='_blank'>Cascina Carolina : caso studio per progettare nel contesto dell'Alta Brianza collinare con interventi di recupero sulla tipologia costruttiva delle cascine</a> (Politesi ID: 10589/240687)."
-          - "Co-supervisor: <a href='https://www.beelab.polimi.it/a-y-2024-2025/' target='_blank'>Thermal comfort and indoor air quality in university classrooms: field measurements and simulation of a real case study</a> (BEE Lab A.Y. 2024/2025)."
+          - "Co-supervisor of Master's Thesis: <a href='https://www.politesi.polimi.it/handle/10589/240687' target='_blank'>Cascina Carolina: Case study for designing in the hilly Upper Brianza context through recovery interventions on traditional farmhouses</a> (Politesi ID: 10589/240687)."
+          - "Co-supervisor of Master's Thesis: <a href='https://www.beelab.polimi.it/a-y-2024-2025/' target='_blank'>Thermal comfort and indoor air quality in university classrooms: field measurements and simulation of a real case study</a> (BEE Lab A.Y. 2024/2025)."
 
-      - company: Dotati Conference
+      - company: Dot.AT.i Study Day Conference
         position: Steering & Organizing Committee Member
         location: Bologna / Milan (MI), Italy
         start_date: 2024
         end_date: Present
         highlights:
-          - "Member of the Steering Committee (Comitato Direttivo) for the upcoming conference in Bologna."
+          - "Member of the Steering Committee (Comitato Direttivo) for the conference in Bologna."
           - "Member of the Organizing Committee for the conference held in Milan."
 
     Languages:
