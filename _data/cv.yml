@@ -24,34 +24,67 @@ cv:
       - institution: Politecnico di Milano
         location: Milan, Italy
         url: https://www.polimi.it/
-        area: Architecture, Built Environment and Construction Engineering
+        area: Architecture, Built Environment and Construction Engineering (DABC)
         studyType: Ph.D. Candidate
-        start_date: 2023
+        start_date: 2025
         end_date: Present
         highlights:
           - "Member of BEE Lab (Building facadE performancE Lab)."
-          - "Research focus: Indoor Environmental Quality (IEQ), predictive building management, time-series clustering, and occupant behavior."
+          - "Doctoral research in Building Physics, Indoor Environmental Quality (IEQ), and data-driven building operations."
 
       - institution: Politecnico di Milano
         location: Milan, Italy
         url: https://www.polimi.it/
-        area: Building Architecture and Engineering
+        area: Building Engineering-Architecture (Ingegneria Edile-Architettura)
         studyType: Master of Science (M.Sc.)
         start_date: 2017
         end_date: 2023
         highlights:
-          - "Graduated in Architectural Engineering."
+          - "Five-year single-cycle master's degree (Laurea Magistrale a ciclo unico)."
+
+      - institution: ITCS / ITCG (Istituto Tecnico Commerciale e per Geometri)
+        location: Italy
+        area: Building Surveying & Construction (Costruzioni, Ambiente e Territorio / Geometra)
+        studyType: Technical High School Diploma
+        start_date: 2012
+        end_date: 2017
+        highlights:
+          - "Diploma di Istituto Tecnico per Geometri."
 
     Experience:
       - company: Politecnico di Milano - BEE Lab
-        position: Doctoral Researcher
+        position: Doctoral Researcher / Ph.D. Candidate
+        location: Milan, Italy
+        start_date: 2025
+        end_date: Present
+        summary: Conducting doctoral research on building physics, environmental monitoring, and data-driven management models.
+        highlights:
+          - "Research focus on occupant-centric building management, time-series clustering, and predictive comfort models."
+
+      - company: Politecnico di Milano - BEE Lab
+        position: Research Fellow (Assegnista di Ricerca)
         location: Milan, Italy
         start_date: 2023
-        end_date: Present
-        summary: Conducting research on building physics, long-term environmental monitoring, and data-driven management models.
+        end_date: 2025
+        summary: Research fellowship on occupant-based predictive building management, lightweight envelope systems, and IEQ monitoring.
         highlights:
-          - "Participant in the PRIN 2022 DIGITMAN project on occupant-based digital predictive management."
-          - "Implementation of machine learning algorithms for thermal pattern identification and comfort classification."
+          - "Research activities within the PRIN 2022 DIGITMAN project on digital predictive management."
+          - "Research and performance evaluation within ENEA Ricerca di Sistema and OFFICIO projects."
+          - "Machine learning algorithms and thermal pattern identification for indoor comfort."
+
+      - company: Studio di Architettura e Ingegneria Arch3
+        position: Engineering & Architecture Collaborator
+        location: Cermenate (CO), Italy
+        start_date: 2022
+        end_date: 2023
+        summary: Technical design and architectural/engineering consulting.
+
+      - company: Inartec S.r.l.
+        position: Technical Collaborator
+        location: Lecco, Italy
+        start_date: 2018
+        end_date: 2019
+        summary: Engineering and technical consulting collaboration.
 
     Research Interests:
       - name: Core Domains

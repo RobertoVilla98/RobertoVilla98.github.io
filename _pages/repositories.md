@@ -2,46 +2,49 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: GitHub repositories and open-source code.
+description: GitHub repositories and open-source projects.
 nav: true
 nav_order: 3
 ---
 
-{% if site.data.repositories.github_users %}
+<div class="repositories">
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card h-100 hoverable">
+        <div class="card-body d-flex flex-column">
+          <h4 class="card-title">
+            <i class="fa-brands fa-github"></i> <a href="https://github.com/RobertoVilla98/ChartMate" target="_blank" rel="noopener noreferrer">ChartMate</a>
+          </h4>
+          <p class="card-text flex-grow-1">
+            Smart, automated data visualization tool for scientific and academic research. Facilitates rapid chart generation, custom plotting workflows, and data analysis.
+          </p>
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <span class="badge bg-primary text-white"><i class="fa-brands fa-python"></i> Python</span>
+            <a href="https://github.com/RobertoVilla98/ChartMate" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-primary">
+              View Repository <i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-## GitHub users
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
-</div>
-
----
-
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
-
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
+    <div class="col">
+      <div class="card h-100 hoverable">
+        <div class="card-body d-flex flex-column">
+          <h4 class="card-title">
+            <i class="fa-brands fa-github"></i> <a href="https://github.com/RobertoVilla98/RobertoVilla98.github.io" target="_blank" rel="noopener noreferrer">RobertoVilla98.github.io</a>
+          </h4>
+          <p class="card-text flex-grow-1">
+            Source code of personal academic website and portfolio built with Jekyll and the al-folio theme, hosted on GitHub Pages.
+          </p>
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <span class="badge bg-secondary text-white"><i class="fa-solid fa-code"></i> Jekyll / Liquid</span>
+            <a href="https://github.com/RobertoVilla98/RobertoVilla98.github.io" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-primary">
+              View Repository <i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-
----
-
-{% endfor %}
-{% endif %}
-{% endif %}
-
-{% if site.data.repositories.github_repos %}
-
-## GitHub Repositories
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
-  {% endfor %}
 </div>
-{% endif %}
