@@ -2,7 +2,7 @@ cv:
   name: Roberto Villa
   label: PhD Candidate in Architectural Engineering
   email: roberto.villa@polimi.it
-  location: Milan, Italy
+  location: Milan (MI), Italy
   image: ""
   summary: PhD Candidate at Politecnico di Milano focusing on Building Physics, Indoor Environmental Quality (IEQ), Occupant-based Predictive Building Management, and Machine Learning applications.
 
@@ -14,7 +14,7 @@ cv:
 
   address:
     street: Piazza Leonardo da Vinci, 32
-    city: Milan
+    city: Milan (MI)
     region: Lombardy
     postalCode: 20133
     countryCode: IT
@@ -22,7 +22,7 @@ cv:
   sections:
     Education:
       - institution: Politecnico di Milano
-        location: Milan, Italy
+        location: Milan (MI), Italy
         url: https://www.polimi.it/
         area: Architecture, Built Environment and Construction Engineering (DABC)
         studyType: Ph.D. Candidate
@@ -33,7 +33,7 @@ cv:
           - "Doctoral research in Building Physics, Indoor Environmental Quality (IEQ), and data-driven building operations."
 
       - institution: Politecnico di Milano
-        location: Milan, Italy
+        location: Milan (MI), Italy
         url: https://www.polimi.it/
         area: Building Engineering-Architecture (Ingegneria Edile-Architettura)
         studyType: Master of Science (M.Sc.)
@@ -41,20 +41,22 @@ cv:
         end_date: 2023
         highlights:
           - "Five-year single-cycle master's degree (Laurea Magistrale a ciclo unico)."
+          - "Master's Thesis: <a href='https://www.politesi.polimi.it/handle/10589/211636' target='_blank'>RE(3).Hab Brioschi: Progetto di recupero del rifugio Luigi Brioschi mediante l'utilizzo di sistemi modulari leggeri in legno, ottimizzazione del comfort dinamico per mezzo di integrazioni impiantistiche autosufficienti</a> (Politesi ID: 10589/211636)."
 
-      - institution: ITCS / ITCG (Istituto Tecnico Commerciale e per Geometri)
-        location: Italy
-        area: Building Surveying & Construction (Costruzioni, Ambiente e Territorio / Geometra)
-        studyType: Technical High School Diploma
+      - institution: ITCG Gino Zappa
+        location: Saronno (VA), Italy
+        url: https://www.itczappa.edu.it/
+        area: Surveying & Construction Technology (Costruzioni, Ambiente e Territorio / Geometra)
+        studyType: Secondary School Diploma
         start_date: 2012
         end_date: 2017
         highlights:
-          - "Diploma di Istituto Tecnico per Geometri."
+          - "Diploma di Istituto Tecnico Commerciale e per Geometri."
 
     Experience:
       - company: Politecnico di Milano - BEE Lab
         position: Doctoral Researcher / Ph.D. Candidate
-        location: Milan, Italy
+        location: Milan (MI), Italy
         start_date: 2025
         end_date: Present
         summary: Conducting doctoral research on building physics, environmental monitoring, and data-driven management models.
@@ -63,7 +65,7 @@ cv:
 
       - company: Politecnico di Milano - BEE Lab
         position: Research Fellow (Assegnista di Ricerca)
-        location: Milan, Italy
+        location: Milan (MI), Italy
         start_date: 2023
         end_date: 2025
         summary: Research fellowship on occupant-based predictive building management, lightweight envelope systems, and IEQ monitoring.
@@ -81,24 +83,45 @@ cv:
 
       - company: Inartec S.r.l.
         position: Technical Collaborator
-        location: Lecco, Italy
+        location: Lecco (LC), Italy
         start_date: 2018
         end_date: 2019
         summary: Engineering and technical consulting collaboration.
 
     Research Interests:
-      - name: Core Domains
-        icon: fa-solid fa-layer-group
-        keywords: "Indoor Environmental Quality (IEQ), Building Physics, Energy Efficiency, Predictive Maintenance, Off-site Construction, Topological BIM"
+      - name: Indoor Environmental Quality (IEQ)
+        icon: fa-solid fa-temperature-half
+        keywords: "Continuous monitoring of thermal, acoustic, and visual comfort"
 
-      - name: Computational Tools
-        icon: fa-solid fa-code
-        keywords: "Python for Machine Learning, Building Performance Simulation (BPS), Sensor Network Data Analysis, Clustering & Classification"
+      - name: Energy Efficiency & Maintenance
+        icon: fa-solid fa-bolt
+        keywords: "Occupant-centric building operations, time-series clustering, and identification of operational patterns"
+
+      - name: Off-site Construction
+        icon: fa-solid fa-cubes
+        keywords: "Performance evaluation and optimization of prefabricated building components"
+
+      - name: Applied Machine Learning
+        icon: fa-solid fa-brain
+        keywords: "Using Python for predictive algorithms and pattern recognition in building systems"
+
+      - name: Interoperability (BIM/BPS)
+        icon: fa-solid fa-network-wired
+        keywords: "Semi-automated space-oriented workflows for integrated energy and safety analysis"
 
     Academic Service:
+      - company: Politecnico di Milano
+        position: Co-supervisor of Master's Theses
+        location: Milan (MI), Italy
+        start_date: 2024
+        end_date: Present
+        highlights:
+          - "Co-supervisor: <a href='https://www.politesi.polimi.it/handle/10589/240687' target='_blank'>Cascina Carolina : caso studio per progettare nel contesto dell'Alta Brianza collinare con interventi di recupero sulla tipologia costruttiva delle cascine</a> (Politesi ID: 10589/240687)."
+          - "Co-supervisor: <a href='https://www.beelab.polimi.it/a-y-2024-2025/' target='_blank'>Thermal comfort and indoor air quality in university classrooms: field measurements and simulation of a real case study</a> (BEE Lab A.Y. 2024/2025)."
+
       - company: Dotati Conference
         position: Steering & Organizing Committee Member
-        location: Italy
+        location: Bologna / Milan (MI), Italy
         start_date: 2024
         end_date: Present
         highlights:
@@ -110,4 +133,7 @@ cv:
         summary: "Native speaker"
 
       - name: English
+        summary: "Professional working proficiency"
+
+      - name: Spanish
         summary: "Professional working proficiency"
