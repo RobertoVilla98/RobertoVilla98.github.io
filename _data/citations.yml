@@ -1,15 +1,19 @@
 metadata:
-  last_updated: '2026-07-17'
+  last_updated: '2026-11-04'
 papers:
-  ND_THTMAAAAJ:u-x6o8ySG0sC:
-    citations: 3
-    title: Clustering analysis for indoor temperature and energy pattern identification through long-term monitoring data in a university classroom
+  ND_THTMAAAAJ:2osOgNQ5qMEC:
+    citations: 0
+    title: 'A Framework for Digital and Sustainable Classroom Management: Non-Intrusive CO2-Based Occupancy Estimation for Demand-Controlled Ventilation'
     year: 2026
   ND_THTMAAAAJ:d1gkVwhDpl0C:
     citations: 2
     title: Occupant-based digital predictive management to improve the built environment
     year: 2025
+  ND_THTMAAAAJ:u-x6o8ySG0sC:
+    citations: 5
+    title: Clustering analysis for indoor temperature and energy pattern identification through long-term monitoring data in a university classroom
+    year: 2025
   ND_THTMAAAAJ:u5HHmVD_uO8C:
-    citations: 1
+    citations: 2
     title: Topological BIM for Occupancy-based Integrated Energy and Safety Analysis of Higher Education Buildings
     year: 2025
